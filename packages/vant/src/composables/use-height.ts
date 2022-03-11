@@ -5,7 +5,7 @@ export const useHeight = (element: Element | Ref<Element | undefined>) => {
   const height = ref<number>();
 
   const setHeight = () => {
-    height.value = useRect(element).height;
+    height.value = useRect(element).height; // 将 height 变成响应式数据
   };
 
   onMounted(() => {

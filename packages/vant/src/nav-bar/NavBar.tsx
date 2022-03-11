@@ -54,7 +54,7 @@ export default defineComponent({
   emits: ['click-left', 'click-right'],
 
   setup(props, { emit, slots }) {
-    const navBarRef = ref<HTMLElement>();
+    const navBarRef = ref<HTMLElement>(); // 绑定 van-nav-bar
     const renderPlaceholder = usePlaceholder(navBarRef, bem);
 
     const onClickLeft = (event: MouseEvent) => emit('click-left', event);
