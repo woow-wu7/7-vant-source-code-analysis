@@ -1,6 +1,6 @@
 # 任务清单
 
-[x] van-nav-bar
+- [x] van-nav-bar
 
 
 # 源码分析
