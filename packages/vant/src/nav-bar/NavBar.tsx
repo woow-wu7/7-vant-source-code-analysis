@@ -23,6 +23,15 @@ import { Icon } from '../icon';
 
 const [name, bem] = createNamespace('nav-bar');
 
+// export function createNamespace(name: string) {
+//   const prefixedName = `van-${name}`;
+//   return [
+//     prefixedName,
+//     createBEM(prefixedName),
+//     createTranslate(prefixedName),
+//   ] as const;
+// }
+
 const navBarProps = {
   title: String,
   fixed: Boolean,
