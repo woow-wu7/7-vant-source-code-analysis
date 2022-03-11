@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render bottom slot correctly 1`] = `
+<div class="van-empty">
+  <div class="van-empty__image">
+    <img src="https://img.yzcdn.cn/vant/empty-image-default.png">
+  </div>
+  <div class="van-empty__bottom">
+    Custom bottom
+  </div>
+</div>
+`;
+
+exports[`should render description slot correctly 1`] = `
+<div class="van-empty">
+  <div class="van-empty__image">
+    <img src="https://img.yzcdn.cn/vant/empty-image-default.png">
+  </div>
+  <p class="van-empty__description">
+    Custom description
+  </p>
+</div>
+`;
+
+exports[`should render image slot correctly 1`] = `
+<div class="van-empty">
+  <div class="van-empty__image">
+    Custom Image
+  </div>
+</div>
+`;
+
+exports[`should render svg when image is network 1`] = `
+<div class="van-empty">
+  <div class="van-empty__image">
+    <svg viewbox="0 0 160 160">
+      <defs>
+        <linearGradient id="van-empty-network-1"
+                        x1="64%"
+                        y1="100%"
+                        x2="64%"
+        >
+          <stop stop-color="#FFF"
+                offset="0%"
+                stop-opacity="0.5"
+          >
+          </stop>
+          <stop stop-color="#F2F3F5"
+                offset="100%"
+          >
+          </stop>
+        </linearGradient>
+        <linearGradient id="van-empty-network-2"
+                        x1="50%"
+                        x2="50%"
+                        y2="84%"
+        >
+          <stop stop-color="#EBEDF0"
+                offset="0%"
+          >
+          </stop>
+          <stop stop-color="#DCDEE0"
+                offset="100%"
+                stop-opacity="0"
+          >
+          </stop>
+        </linearGradient>
+        <linearGradient id="van-empty-network-3"
+                        x1="100%"
+                        x2="100%"
+                        y2="100%"
+        >
+          <stop stop-color="#EAEDF0"
+                offset="0%"
+          >
+          </stop>
+          <stop stop-color="#DCDEE0"
+                offset="100%"
+          >
+          </stop>
+        </linearGradient>
+        <radialGradient id="van-empty-network-4"
+                        cx="50%"
+                        cy="0%"
+                        fx="50%"
+                        fy="0%"
+                        r="100%"
+                        gradienttransform="matrix(0 1 -.54 0 .5 -.5)"
+        >
+          <stop stop-color="#EBEDF0"
+                offset="0%"
+          >
+          </stop>
+          <stop stop-color="#FFF"
+                offset="100%"
+                stop-opacity="0"
+          >
+          </stop>
+        </radialGradient>
+      </defs>
+      <g fill="none">
+        <g opacity=".8">
+          <path d="M36 131V53H16v20H2v58h34z"
+                fill="url(#van-empty-network-1)"
+          >
+          </path>
+          <path d="M123 15h22v14h9v77h-31V15z"
+                fill="url(#van-empty-network-1)"
+          >
+          </path>
+        </g>
+        <path fill="url(#van-empty-network-4)"
+              d="M0 139h160v21H0z"
+        >
+        </path>
+        <path d="M80 54a7 7 0 0 1 3 13v27l-2 2h-2a2 2 0 0 1-2-2V67a7 7 0 0 1 3-13z"
+              fill="url(#van-empty-network-2)"
+        >
+        </path>
+        <g opacity=".6"
+           stroke-linecap="round"
+           stroke-width="7"
+        >
+          <path d="M64 47a19 19 0 0 0-5 13c0 5 2 10 5 13"
+                stroke="url(#van-empty-network-3)"
+          >
+          </path>
+          <path d="M53 36a34 34 0 0 0 0 48"
+                stroke="url(#van-empty-network-3)"
+          >
+          </path>
+          <path d="M95 73a19 19 0 0 0 6-13c0-5-2-9-6-13"
+                stroke="url(#van-empty-network-3)"
+          >
+          </path>
+          <path d="M106 84a34 34 0 0 0 0-48"
+                stroke="url(#van-empty-network-3)"
+          >
+          </path>
+        </g>
+        <g transform="translate(31 105)">
+          <rect fill="#EBEDF0"
+                width="98"
+                height="34"
+                rx="2"
+          >
+          </rect>
+          <rect fill="#FFF"
+                x="9"
+                y="8"
+                width="80"
+                height="18"
+                rx="1.1"
+          >
+          </rect>
+          <rect fill="#EBEDF0"
+                x="15"
+                y="12"
+                width="18"
+                height="6"
+                rx="1.1"
+          >
+          </rect>
+        </g>
+      </g>
+    </svg>
+  </div>
+</div>
+`;
